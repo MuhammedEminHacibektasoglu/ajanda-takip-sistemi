@@ -18,6 +18,8 @@ hatırlatıcı ayarladığı bir web uygulaması. Ders projesi kapsamında geli�
 - [x] `ajanda_db` veritabanı oluşturuldu (henüz tablo yok)
 - [x] Git + GitHub bağlantısı kuruldu, ilk commit'ler atıldı
 - [x] Claude Code CLI + VS Code eklentisi kuruldu
+- [x] `index.php`'deki `phpinfo()` test satırı kaldırıldı ve GitHub'a push edildi (commit `c6ef9bf`)
+- [ ] `.gitignore` henüz boş; DB bağlantı dosyası eklenmeden önce kurallar yazılmalı
 - [ ] Veritabanı tabloları henüz tasarlanmadı (users, tasks, reminders)
 - [ ] Kullanıcı kayıt/giriş sistemi yazılmadı
 - [ ] Görev ekleme/listeleme/tamamlama yazılmadı
