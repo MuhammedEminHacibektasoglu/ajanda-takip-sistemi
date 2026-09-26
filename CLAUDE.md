@@ -19,7 +19,7 @@ hatırlatıcı ayarladığı bir web uygulaması. Ders projesi kapsamında geli�
 - [x] Git + GitHub bağlantısı kuruldu, ilk commit'ler atıldı
 - [x] Claude Code CLI + VS Code eklentisi kuruldu
 - [x] `index.php`'deki `phpinfo()` test satırı kaldırıldı ve GitHub'a push edildi (commit `c6ef9bf`)
-- [ ] `.gitignore` henüz boş; DB bağlantı dosyası eklenmeden önce kurallar yazılmalı
+- [x] `.gitignore` dolduruldu (commit `a80107a`): DB şifreleri `config.php`'de tutulacak (commit edilmez), şablonu `config.example.php` olarak commit edilecek; şema `database/schema.sql`'e yazılacak
 - [ ] Veritabanı tabloları henüz tasarlanmadı (users, tasks, reminders)
 - [ ] Kullanıcı kayıt/giriş sistemi yazılmadı
 - [ ] Görev ekleme/listeleme/tamamlama yazılmadı
