@@ -1,0 +1,38 @@
+# --- Gizli bilgiler (DB şifreleri, API anahtarları) ---
+# Gerçek ayarlar bu dosyalarda tutulur, GitHub'a gitmez.
+# Örnek şablonlar (config.example.php, .env.example) commit edilir.
+.env
+.env.*
+!.env.example
+config.php
+config/config.php
+config/database.php
+
+# --- Bağımlılıklar ---
+/vendor/
+/node_modules/
+
+# --- Loglar, önbellek, geçici dosyalar ---
+*.log
+/logs/
+/cache/
+/tmp/
+
+# --- Kullanıcı yüklemeleri ---
+/uploads/*
+!/uploads/.gitkeep
+
+# --- Veritabanı yedekleri ---
+*.sql
+*.sql.gz
+!/database/schema.sql
+
+# --- Editör / IDE ---
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# --- İşletim sistemi ---
+Thumbs.db
+desktop.ini
+.DS_Store
